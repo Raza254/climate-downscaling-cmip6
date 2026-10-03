@@ -1,0 +1,20 @@
+ERA5 Precipitation Dataset (Clipped):
+
+<xarray.Dataset> Size: 5MB
+Dimensions:      (valid_time: 300, latitude: 62, longitude: 61)
+Coordinates:
+    number       int64 8B ...
+  * valid_time   (valid_time) datetime64[ns] 2kB 1990-01-01 ... 2014-12-01
+  * latitude     (latitude) float64 496B 33.9 33.8 33.7 33.6 ... 28.0 27.9 27.8
+  * longitude    (longitude) float64 488B 69.3 69.4 69.5 69.6 ... 75.1 75.2 75.3
+    expver       (valid_time) <U4 5kB ...
+Data variables:
+    spatial_ref  int64 8B ...
+    tp           (valid_time, latitude, longitude) float32 5MB ...
+Attributes:
+    GRIB_centre:             ecmf
+    GRIB_centreDescription:  European Centre for Medium-Range Weather Forecasts
+    GRIB_subCentre:          0
+    Conventions:             CF-1.7
+    institution:             European Centre for Medium-Range Weather Forecasts
+    history:                 2025-04-09T12:46 GRIB to CDM+CF via cfgrib-0.9.1...

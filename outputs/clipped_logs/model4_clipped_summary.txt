@@ -1,0 +1,127 @@
+MODEL4 CLIPPED DATA SUMMARY
+
+--- HISTORICAL ---
+
+Temperature Dataset (tas_clipped.nc):
+<xarray.Dataset> Size: 723kB
+Dimensions:      (time: 300, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 2kB 1990-01-16T12:00:00 ... 2014-12-16...
+    height       float64 8B ...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    tas          (time, lat, lon) float32 720kB ...
+Precipitation Dataset (pr_clipped.nc):
+<xarray.Dataset> Size: 723kB
+Dimensions:      (time: 300, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 2kB 1990-01-16T12:00:00 ... 2014-12-16...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    pr           (time, lat, lon) float32 720kB ...
+--------------------------------------------------
+
+--- SSP126 ---
+
+Temperature Dataset (tas_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+    height       float64 8B ...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    tas          (time, lat, lon) float32 2MB ...
+Precipitation Dataset (pr_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    pr           (time, lat, lon) float32 2MB ...
+--------------------------------------------------
+
+--- SSP245 ---
+
+Temperature Dataset (tas_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+    height       float64 8B ...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    tas          (time, lat, lon) float32 2MB ...
+Precipitation Dataset (pr_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    pr           (time, lat, lon) float32 2MB ...
+--------------------------------------------------
+
+--- SSP370 ---
+
+Temperature Dataset (tas_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+    height       float64 8B ...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    tas          (time, lat, lon) float32 2MB ...
+Precipitation Dataset (pr_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    pr           (time, lat, lon) float32 2MB ...
+--------------------------------------------------
+
+--- SSP585 ---
+
+Temperature Dataset (tas_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+    height       float64 8B ...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    tas          (time, lat, lon) float32 2MB ...
+Precipitation Dataset (pr_clipped.nc):
+<xarray.Dataset> Size: 2MB
+Dimensions:      (time: 1032, lon: 24, lat: 25)
+Coordinates:
+  * time         (time) datetime64[ns] 8kB 2015-01-16T12:00:00 ... 2100-12-16...
+  * lon          (lon) float64 192B 69.5 69.75 70.0 70.25 ... 74.75 75.0 75.25
+  * lat          (lat) float64 200B 27.75 28.0 28.25 28.5 ... 33.25 33.5 33.75
+Data variables:
+    spatial_ref  int64 8B ...
+    pr           (time, lat, lon) float32 2MB ...
+--------------------------------------------------
+

@@ -1,0 +1,30 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+tempCodeRunnerFile.py
+scripts/tempCodeRunnerFile.py
+
+# Virtual Environments
+.venv/
+env/
+venv/
+ENV/
+
+# IDE & OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Heavy NetCDF Datasets (Avoid GitHub 100MB limit & repo bloat)
+*.nc
+era5_*.nc
+models/**/*.nc
+outputs/**/*.nc
+outputs/*.nc
+
+# Preserve processed results, logs, and visualization figures
+!outputs/goodness_of_fit_results.csv
+!outputs/clipped_logs/*.txt
+!maps/*.png
